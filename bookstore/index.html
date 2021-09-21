@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+    <title>Book store</title>
+</head>
+<body>
+
+<!--header Section-->
+    <header class="header">
+    <div class="logo-container">
+        <img src="./photo/logo.png" class="logo">
+    </div>
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="">Home</a></li>
+            <li><a href="#Category">Category</a></li>
+            <li><a href="#Book">Book</a></li>
+            <li><a  id="btnFAv">My Fav Book</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--Image Section-->
+<section class="hero">
+<div class="hero-overlay">
+<div class="hero-content">
+<h1>Book Shop </h1>
+<h3>welcom to my book Shop </h3>
+</div>
+</div>
+</section>
+
+<!--Category Section-->
+<section class="grid">
+
+<h1 class="grid-tittle" id= "Category">Category</h1>
+   
+ <div class="grid-content">
+<div class="grid-item">
+    <div class ="category-card">
+<img src="./photo/ox024_02 (4).jpg"/>
+
+    </div>
+</div>
+
+<div class="grid-item">
+    <div class ="category-card">
+<img src="./photo/ox024_02 (1).jpg"/>
+    </div>
+</div>
+
+<div class="grid-item">
+    <div class ="category-card">
+<img src="./photo/ox024_02 (7).jpg"/>
+
+    </div>
+</div>
+<div class="grid-item">
+    <div class ="category-card">
+<img src="./photo/ox024_02 (8).jpg"/>
+    </div>
+</div>
+<div class="grid-item">
+    <div class ="category-card">
+<img src="./photo/ox024_02 (2).jpg"/>
+    </div>
+</div>
+<div class="grid-item">
+    <div class ="category-card">
+<img src="./photo/ox024_02 (3).jpg"/>
+    </div>
+</div>
+<div class="grid-item">
+    <div class ="category-card">
+<img src="./photo/ox024_02 (5).jpg"/>
+    </div>
+</div>
+<div class="grid-item">
+    <div class ="category-card">
+<img src="./photo/ox024_02 (6).jpg"/>
+    </div>
+</div>
+<div class="grid-item">
+    <div class ="category-card">
+<img src="./photo/ox024_02 (11).jpg"/>
+    </div>
+</div>
+<div class="grid-item">
+    <div class ="category-card">
+<img src="./photo/ox024_02 (10).jpg"/>
+    </div>
+</div>
+ </div>
+</section>
+
+<!--Book Section-->
+<section class="grid" >
+
+    <h1 class="grid-tittle" id = "Book">Books</h1>
+
+    <div class="grid-content" id='data'>
+    </div>
+</section>
+
+
+<div id="FavBook">
+    <button onclick="closeFav() " class = "closeFav">close</button>
+<div  class="myFavBook" >
+    
+    <h1 class="grid-tittle" id = "My Book">My Favorite Books</h1>
+
+    <div class="grid-content" id='favData'>
+    </div>
+</div>
+</div>
+
+<!--Footer Section-->
+<div class="footer">
+    all copy right reserved
+</div>
+
+
+<script src="./js/script.js"></script>
+    
+</body>
+</html>
